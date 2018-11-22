@@ -21,7 +21,7 @@ int main()
   printf("\tvalue : %p\n", q);
   printf("\taddress : %p\n", &q);
   printf("\tvalue of *q : %p\n", *q);
-  printf("value of *(*q) : %d\n", *(*q));
+  printf("\tvalue of *(*q) : %d\n", *(*q));
   
   return 0;
 }
