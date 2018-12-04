@@ -9,8 +9,8 @@ int main()
     printf("Enter the order of matrix:\n");
     scanf("%d%d", &a, &b);
     int arr[a][b];
-    int arr1[a][b];
-    int arr2[a][b];
+//   int arr1[a][b];
+//   int arr2[a][b];
     printf("Enter the values of matrix:\n");
     for(i=0; i<a; i++)
     {
@@ -23,7 +23,7 @@ int main()
 
 //    printf("Enter the row whose sum is to be calculated:\n");
 
-    printf("Sum of respective rows of given matrix are:\n");    
+    printf("\nSum of respective rows of given matrix are:\n");    
     for (i = 0; i < a; i++)
     {
     for(j = 0; j<b ; j++)
@@ -31,10 +31,10 @@ int main()
         sum += arr[i][j];
         
     }
-    printf("R%d = %d\n", (i+1), sum);
+    printf("Row %d = %d\n", (i+1), sum);
     sum = 0;
     }
-    printf("Sum of respective columns of given matrix are:\n");
+    printf("\nSum of respective columns of given matrix are:\n");
 
     for (i = 0; i < a; i++)
     {
@@ -43,11 +43,11 @@ int main()
         sum += arr[j][i];
         
     }
-    printf("C%d = %d\n", (i+1), sum);
+    printf("Column %d = %d\n", (i+1), sum);
     sum = 0;
     }
    
-    printf("Enjoy !!\n");
+    printf("\n");
     
     return 0;
 }
