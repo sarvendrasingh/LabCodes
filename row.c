@@ -6,8 +6,8 @@
 int main()
 {
     int i,j,a ,b, sum =0;
-    printf("Enter the order of matrix:\n");
-    scanf("%d%d", &a, &b);
+    printf("Enter the order of matrix (m*n):\n");
+    scanf("%d*%d", &a, &b);
     int arr[a][b];
 //   int arr1[a][b];
 //   int arr2[a][b];
